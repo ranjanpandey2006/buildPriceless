@@ -1,0 +1,11 @@
+/* Empty. Add your own CSS if you like */
+.dummy .item{
+	text-align: center;
+	box-shadow: 8px;
+	background: #009999;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px #888888;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+}

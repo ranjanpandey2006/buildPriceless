@@ -1,0 +1,26 @@
+<ion-view view-title="Mobile Brands">
+  <ion-content>
+    <ion-list>
+      <!--<ion-item ng-repeat="product in products[0].stores" >
+        <a href="{{product.url}}" style="text-decoration:none;" target="_blank">
+        <div style="height:125px;" align="center">
+        <img src="http://4b86c01db1137f1dfd7c-fb8e82077711b18597048681bb5363f6.r14.cf6.rackcdn.com/widget/+{{product.website}}+".jpg"" style="height:60px;width:100px;"> <br><br>
+        <b><span>Website :</span>&nbsp;www.{{product.website}}.com <br></b>
+        <b><span>Price :</span>&nbsp;{{product.price}}</b>
+        </div>
+        </a>
+      </ion-item>
+      -->
+      <ion-item ng-repeat="brand in brands| orderBy:brand">
+      	
+      	<div class="list list-inset dummy">
+
+		    <a class="item" ng-click="brandClicked(brand)" href="#app/mobileModels">
+		      {{brand}}
+		    </a>
+
+		</div>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
